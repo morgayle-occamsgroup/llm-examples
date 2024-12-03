@@ -1,6 +1,6 @@
 import streamlit as st
 import anthropic
-import pandas
+import pandas as pd
 
 with st.sidebar:
     anthropic_api_key = st.text_input("Anthropic API Key", key="file_qa_api_key", type="password")
